@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Odiljon Davronov](https://up.htmlacademy.ru/htmlcss/15/user/264103).
-* Наставник: `Артем Альтигин`.
+* Студент: [Andrey Adamovich](https://up.htmlacademy.ru/htmlcss/15/user/243343).
+* Наставник: ` `.
 
 ---
 
