@@ -12,6 +12,7 @@ body {
 header {
   min-height: 545px;
   background-color: #eeeeee;
+  margin-bottom: 80px;
 }
 
 .top-logo {
@@ -36,4 +37,22 @@ a {
 
 .advantages {
   min-height: 347px;
+  outline: 1px solid blue;
+  margin-bottom: 80px;
+}
+
+.studio {
+  min-height: 710px;
+  outline: 1px solid red;
+  margin-bottom: 80px;
+}
+
+.map {
+  outline: 1px solid green;
+  min-height: 416px;
+}
+
+footer {
+  min-height: 217px;
+
 }
