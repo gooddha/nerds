@@ -1,0 +1,39 @@
+body {
+  font-size: 16px;
+
+}
+
+.page-container {
+  width: 1160px;
+  margin: 0 auto;
+  outline: 1px solid gray;
+}
+
+header {
+  min-height: 545px;
+  background-color: #eeeeee;
+}
+
+.top-logo {
+  float: left;
+}
+
+.top-menu {
+  float: left;
+}
+
+.top-menu li {
+  display: inline-block;
+}
+
+a {
+  text-transform: capitalize;
+}
+
+.cart {
+  float: right;
+}
+
+.advantages {
+  min-height: 347px;
+}
