@@ -1,9 +1,19 @@
 body {
   font-size: 16px;
-
+  margin: 0;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  color: black;
+  background:white;
 }
 
-.page-container {
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.content-wrapper {
   width: 1160px;
   margin: 0 auto;
   outline: 1px solid gray;
@@ -13,38 +23,67 @@ header {
   min-height: 545px;
   background-color: #eeeeee;
   margin-bottom: 80px;
+  /*padding: 0 140px;*/
+  padding-top: 50px;
 }
 
 .top-logo {
   float: left;
+  width: 160px;
+  height: 65px;
+  margin-right: 195px;
 }
 
 .top-menu {
   float: left;
+  margin-top: 28px;
 }
 
 .top-menu li {
   display: inline-block;
+  margin-right: 50px;
 }
 
-a {
-  text-transform: capitalize;
+header a {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;;
 }
 
 .cart {
   float: right;
+  margin-top: 28px;
 }
 
 .advantages {
   min-height: 347px;
   outline: 1px solid blue;
   margin-bottom: 80px;
+  /*padding: 0 140px;*/
 }
+
+.advantages-item {
+  float: left;
+  width: 300px;
+  margin-right: 100px;
+}
+
+.advantages-item:last-child {
+  margin-right: 0;
+}
+
+.advantage-illustration {
+  width: 300px;
+  height: 146px;
+}
+
 
 .studio {
   min-height: 710px;
   outline: 1px solid red;
   margin-bottom: 80px;
+  padding: 0 140px;
 }
 
 .map {
