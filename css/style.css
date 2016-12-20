@@ -16,11 +16,11 @@ body {
 .content-wrapper {
   width: 1160px;
   margin: 0 auto;
-  outline: 1px solid gray;
+  /*outline: 1px solid gray;*/
 }
 
 header {
-  min-height: 545px;
+  min-height: 500px;
   background-color: #eeeeee;
   margin-bottom: 80px;
   /*padding: 0 140px;*/
@@ -54,11 +54,61 @@ header a {
 .cart {
   float: right;
   margin-top: 28px;
+  position: relative;
+}
+
+.cart::before {
+  position: absolute;
+  left: -25px;
+  top: 2px;
+  content: "";
+  width: 15px;
+  height: 15px;
+   background-color: #000000;
+  background: url("../img/cart-icon.png") no-repeat;
+}
+
+.slider {
+  background: url("../img/slider-1.jpg") no-repeat;
+  background-position: right bottom;
+  overflow: visible;
+  min-height: 450px;
+}
+
+.hidden {
+  display: none;
+}
+
+.slider-text {
+  width: 400px;
+}
+
+.slide-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 90px;
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.slide-info {
+  margin-bottom: 50px;
+}
+
+.btn {
+  color: #ffffff;
+  min-height: 20px;
+  width: 240px;
+  border-radius: 3px;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #fb565a;
+  text-transform: uppercase;
 }
 
 .advantages {
   min-height: 347px;
-  outline: 1px solid blue;
+  /*outline: 1px solid blue;*/
   margin-bottom: 80px;
   /*padding: 0 140px;*/
 }
@@ -66,7 +116,9 @@ header a {
 .advantages-item {
   float: left;
   width: 300px;
+  min-height: 347px;
   margin-right: 100px;
+  position: relative;
 }
 
 .advantages-item:last-child {
@@ -78,6 +130,24 @@ header a {
   height: 146px;
 }
 
+.advantage-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.order-btn {
+  position: absolute;
+  bottom: 0;
+}
+
+.advantage-2 .order-btn {
+  background-color: #00ca74;
+}
+
+.advantage-3 .order-btn {
+  background-color: #efc84a;
+}
 
 .studio {
   min-height: 710px;
