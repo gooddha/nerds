@@ -142,7 +142,6 @@ header a {
 }
 
 .advantage-info {
-  width: 250px;
 }
 
 
@@ -295,11 +294,101 @@ header a {
 }
 
 .map {
-  outline: 1px solid green;
-  min-height: 416px;
+  min-height: 362px;
+  background-image: url("../img/map.jpg");
+  padding-top: 54px;
+  padding-left: 140px;
+}
+
+.address {
+  float: left;
+  min-height: 308px;
+  width: 319px;
+  background-color: #ffffff;
+  margin-right: 225px;
+}
+
+.address-container {
+  padding-top: 54px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.address-container b {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.address-container p {
+  font-size: 16px;
+  line-height: 18px;
+  color: #666666;
+}
+
+.address-container button {
+  width: 100%;
+  min-height: 50px;
+  background-color: #fb565a;
+  border: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.marker-container {
+  padding-top: 35px;
 }
 
 footer {
-  min-height: 217px;
+  min-height: 148px;
+}
 
+.social {
+  width: 264px;
+  margin-top: 69px;
+}
+
+.social-ico {
+  float: left;
+  background-color: #e1e1e1;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-left: 12px;
+}
+
+.social-ico:nth-child(1) {
+  background-image: url("../img/vk-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 0;
+}
+
+.social-ico:nth-child(2) {
+  background-image: url("../img/fb-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social-ico:nth-child(3) {
+  background-image: url("../img/insta-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 12px;
+}
+
+.friendship {
+  float: left;
+  width: 546px;
+  margin-left: 136px;
+}
+
+.friendship b {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.friendship p {
+  font-size: 16px;
+  line-height: 22px;
 }
